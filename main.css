@@ -1,63 +1,23 @@
-.search{
-    border-radius: 25px;
-    height: 40px;
-    width:10%;
-    background: lightgray;
-    border: 0px;
-    font-size: 20px;
-    padding-left: 25px;
-    padding-right: 25%;
-    margin-bottom: 2%;
-}
-.d{
-    height: 50%;
-    width:50;
-    display:flex;
-    flex-direction: column;
-
-}
-.one{position: absolute;top:30px;right:70px;
-    border-radius:50%;
-    border: 0px;
-    color:white;
-    background-color: #FF3A21;
-    height:50px;
-    width:50px;}
-.top {
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-bottom: 10%;
-
-}
-.middle-one {
+.whole{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding-top: 0%;
-
+    justify-content: flex-start;
+    background: lightblue;
+    align-content: center;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 
 }
-.buttom {display: flex;
-         flex-direction: row;
-         justify-content: center;
+.second{
+background: repeating-linear-gradient(rgb(42, 175, 97,0.993),rgb(0,204,255));
+margin-right: 20px;
 }
-.icon1{
-    padding-right: 25px;
+.first{ 
+word-spacing: 2px;
+margin-left: 20px;
 }
-.icon2{
-    padding-right: 25px;
-}
-.icon3{
-    padding-right: 25px;
-}
-.google{
-    display:flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-top: -10%;
-}
-.link{
-    width: 99%;
-    height: 30%;
-    position: absolute;
-    bottom: 0%;
+.oky{
+    position: sticky;
+    top:5px;
+    bottom: 5px;
 }
